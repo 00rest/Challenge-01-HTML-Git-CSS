@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-body {
+body {/*. is removed due to semantic being use in html file instead of div*/
     background-color: #d9dcd6;
 }
 
@@ -57,12 +57,13 @@ p {
     background-position: center;
 }
 
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*renaming classes in a single group with one name allows us to greatly reduce css code as we can apply it to 3 boxes at once*/
 .box {
     margin-bottom: 20px;
     padding: 50px;
@@ -101,7 +102,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*renaming classes in a single group with one name allows us to greatly reduce css code as we can apply it to 3 boxes at once*/
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
